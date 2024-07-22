@@ -44,6 +44,5 @@ int main() {
     
     cout << " Index of 14 is " << oddIndex << endl;
 
-
     return 0;
 }
