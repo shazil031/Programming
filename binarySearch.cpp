@@ -30,7 +30,6 @@ int binarySearch(int arr[], int size, int key) {
 }
 
 
-
 int main() {
     
     int even[6] = {2,4,6,8,12,18};
