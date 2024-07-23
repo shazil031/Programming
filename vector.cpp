@@ -5,6 +5,16 @@ using namespace std;
 int main() {
 
     vector<int> v;
+
+    vector<int> a(5, 1); //5 ints with value 1
+
+    vector<int> last(a); //copy of a
+
+     cout << "print last" << endl;
+    for(int i:a) {
+        cout << i << " ";
+    }cout << endl;
+
     cout << "Capacity: " << v.capacity() << endl;
 
     v.push_back(1);
