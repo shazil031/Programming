@@ -54,5 +54,7 @@ int main() {
 
     cout << " First Occurence of 3 is at Index " << firstOcc(even, 11, 3) << endl;
     cout << " Last Occurence of 3 is at Index " << lastOcc(even, 11, 3) << endl;
+    
     return 0;
+    
 }
