@@ -21,7 +21,9 @@ int firstOcc(int arr[], int n, int key) {
 
         mid = s + (e-s)/2;
     }
+
     return ans;
+
 }
 
 int lastOcc(int arr[], int n, int key) {
@@ -46,7 +48,7 @@ int lastOcc(int arr[], int n, int key) {
     }
 
     return ans;
-    
+
 }
 
 
@@ -55,6 +57,7 @@ int main() {
     int even[11] = {1,2,3,3,3,3,3,3,3,3,5};
 
     cout << " First Occurence of 3 is at Index " << firstOcc(even, 11, 3) << endl;
+    
     cout << " Last Occurence of 3 is at Index " << lastOcc(even, 11, 3) << endl;
     
     return 0;
