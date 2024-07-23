@@ -44,7 +44,9 @@ int lastOcc(int arr[], int n, int key) {
 
         mid = s + (e-s)/2;
     }
+
     return ans;
+    
 }
 
 
@@ -56,5 +58,5 @@ int main() {
     cout << " Last Occurence of 3 is at Index " << lastOcc(even, 11, 3) << endl;
     
     return 0;
-    
+
 }
