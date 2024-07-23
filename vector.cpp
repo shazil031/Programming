@@ -47,4 +47,7 @@ int main() {
     cout << "before clear size" <<v.size() << endl;
     v.clear();
     cout << "after clear size" <<v.size() << endl;
+
+    return 0;
+    
 }
