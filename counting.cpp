@@ -15,7 +15,9 @@ int main() {
     int n;
 
     cin >> n;
+
     //Function Call
+    
     printCounting(n);
 
     return 0;
