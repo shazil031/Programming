@@ -3,7 +3,21 @@
 
 using namespace std;
 int main() {
-    stack<int> s;
-    s.push(1);
+    stack<string> s;
+    s.push("love");
+    s.push("babbar");
+    s.push("kumar");
+    
+    cout << "Top element: " << s.top() << endl;
+
+    s.pop();
+    cout << "Top Element: " << s.top() << endl;
+
+    cout << "Size of stack: " << s.size() << endl;
+
+    cout << "Empty or not: " << s.empty() << endl;
+    
+    
     return 0;
+
 }
