@@ -11,9 +11,7 @@ int main() {
     q.push("kumar");
     
     cout << "Size before pop " << q.size() << endl;
-    
     cout << "Frist element: " << q.front() << endl;
-    
     q.pop();
     
     cout << "Frist element: " << q.front() << endl;
