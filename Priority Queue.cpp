@@ -13,12 +13,15 @@ int main() {
     maxi.push(3);
     maxi.push(2);
     maxi.push(0);
+
 cout << "size-> " << maxi.size() << endl;
+
 int n = maxi.size();
     for(int i=0; i<n; i++) {
         cout << maxi.top() << " ";
         maxi.pop();
-    }cout << endl;
+    }
+    cout << endl;
 
     mini.push(5);
     mini.push(1);
@@ -28,9 +31,12 @@ int n = maxi.size();
 
     int m = mini.size();
     for(int i=0; i<m; i++) {
+        
         cout << mini.top() << " ";
+        
         mini.pop();
-    }cout << endl;
+    }
+    cout << endl;
 
 
     cout << "Empty or not: " << mini.empty() << endl;
