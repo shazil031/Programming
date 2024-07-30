@@ -15,7 +15,6 @@ int main() {
     q.pop();
     
     cout << "Frist element: " << q.front() << endl;
-
     cout << "Size after pop " << q.size() << endl;
 
     return 0;
