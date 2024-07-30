@@ -15,11 +15,10 @@ int main() {
     
     int i=2;
     int num;
-    
     if(i==num) {
         cout<<num<<endl;
     }
     
     return 0;
-    
+
 }
