@@ -10,9 +10,9 @@ int main() {
     q.push("babbar");
     q.push("kumar");
     
-    cout << "Size before pop " << q.size() << endl;
-    cout << "Frist element: " << q.front() << endl;
-    q.pop();
+    cout << "Size before pop " << q.size() << endl; 
+    cout << "Frist element: " << q.front() << endl; 
+    q.pop(); 
     
     cout << "Frist element: " << q.front() << endl;
     cout << "Size after pop " << q.size() << endl;
