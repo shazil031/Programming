@@ -18,11 +18,11 @@ int main() {
     cout << "Enter a number: ";
     cin >> n;
 
-    if(isPrime(n)) {
-        cout << "Prime" << endl;
+    if(isPrime(n)) { 
+        cout << "Prime" << endl; 
     }
     else {
-        cout << "Not Prime" << endl;
+        cout << "Not Prime" << endl;  
     }
    
     return 0;
