@@ -9,7 +9,10 @@ int main() {
     //cout << *p << endl;
 
     int i = 5;
-    //int *p = &i;
+    
+    int *q = &i;
+    cout << q << endl;
+    cout << *q << endl;
 
     int *p = 0;
     p = &i;
