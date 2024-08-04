@@ -13,8 +13,9 @@ int main() {
 
     int *p = 0;
     p = &i;
-    
 
+    cout << p << endl;
+    cout << *p << endl;
 
 
     return 0;
