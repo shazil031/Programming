@@ -22,7 +22,10 @@ int main() {
     cout << "value is : " << *p2 << endl;
     cout << "Address is : " << p2 << endl;
 
+    cout << " size of integer is " << sizeof(num) << endl;
+    cout << " size of pointer is " << sizeof(ptr) << endl;
 
     
+
     return 0;
 }
