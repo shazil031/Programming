@@ -8,7 +8,7 @@ int main() {
     
     //cout << *p << endl;
 
-    int i = 5;
+    /*int i = 5;
     
     int *q = &i;
     cout << q << endl;
@@ -19,7 +19,15 @@ int main() {
 
     cout << p << endl;
     cout << *p << endl;
+    */
 
+   int num = 5;
+   int a = num;
+   cout << " before " << num << endl;
+   a++;
+
+   cout << num << endl;
+   
 
     return 0;
 }
