@@ -33,6 +33,11 @@ int main() {
     (*p)++;
     cout << "after " << *p << endl;
 
+    int *q = p;
+    cout << " - " << q << endl;
+    cout << " - " << *q << endl;
+
+
 
     return 0;
 }
