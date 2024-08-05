@@ -34,8 +34,8 @@ int main() {
     cout << "after " << *p << endl;
 
     int *q = p;
-    cout << " - " << q << endl;
-    cout << " - " << *q << endl;
+    cout << p << " - " << q << endl;
+    cout << *p << " - " << *q << endl;
 
 
 
