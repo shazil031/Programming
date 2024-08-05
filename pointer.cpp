@@ -33,10 +33,16 @@ int main() {
     (*p)++;
     cout << "after " << *p << endl;
 
+    //copying a pointer
     int *q = p;
     cout << p << " - " << q << endl;
     cout << *p << " - " << *q << endl;
 
+    //important concept
+    int i = 3;
+    int *t = &i;
+    cout << (*t)++ << endl;
+    // *t = *t + 1
 
 
     return 0;
