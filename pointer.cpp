@@ -21,13 +21,18 @@ int main() {
     cout << *p << endl;
     */
 
-   int num = 5;
-   int a = num;
-   cout << " before " << num << endl;
-   a++;
+    int num = 5;
+    int a = num;
+    cout << " before " << num << endl;
+    a++;
 
-   cout << num << endl;
-   
+    cout << num << endl;
+
+    int *p = &num;
+    cout << " before " << *p << endl;
+    (*p)++;
+    cout << " after " << *p << endl;
+
 
     return 0;
 }
