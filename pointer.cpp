@@ -23,15 +23,15 @@ int main() {
 
     int num = 5;
     int a = num;
-    cout << " before " << num << endl;
+    cout << "a before " << num << endl;
     a++;
+    cout << "a after " << num << endl;
 
-    cout << num << endl;
 
     int *p = &num;
-    cout << " before " << *p << endl;
+    cout << "before " << *p << endl;
     (*p)++;
-    cout << " after " << *p << endl;
+    cout << "after " << *p << endl;
 
 
     return 0;
