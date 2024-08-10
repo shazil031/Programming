@@ -11,6 +11,9 @@ int main() {
 
     cout << ch << endl;
 
+    char *c = &ch[0];
+    cout << c << endl;
+
 
     return 0;
 }
