@@ -7,6 +7,11 @@ int& func(int a) {
     return ans;
 }
 
+int* fun(int n) {
+    int* ptr = &n;
+    return ptr;
+}
+
 void update2(int& n) {
     n++;
 }
@@ -39,7 +44,7 @@ int main() {
    cout << "After " << n << endl;
 
 
-   func(n);
+   fun(n);
 
     return 0;
 }
