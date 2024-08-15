@@ -3,11 +3,12 @@ using namespace std;
 
 int main() {
 
-    char ch = 'q';
-    cout << sizeof(ch) << endl;
-    
-    char* c = &ch;
-    cout << sizeof(c) << endl;
+    int n;
+    cin >> n;
+
+    //variable size array
+    int* arr = new int[n];
+
 
 
     return 0;
