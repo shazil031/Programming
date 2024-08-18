@@ -37,5 +37,9 @@ int main() {
     }
     delete [] arr;
 
+    //how to craete a 2D array dynamically
+    //input/output
+    //memory free kaise krni hai
+
     return 0;
 }
